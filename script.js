@@ -41,12 +41,12 @@ var questions = [
 
     var container = document.getElementById("questionContainer");
     var questionEl = document.getElementById("question");
-    var AnswerA = document.getElementById("AnswerA");
-    var AnswerB = document.getElementById("AnswerB");
-    var AnswerC = document.getElementById("AnswerC");
-    var AnswerD = document.getElementById("AnswerD");
+    var choices1 = document.getElementById("AnswerA");
+    var choices2 = document.getElementById("AnswerB");
+    var choices3 = document.getElementById("AnswerC");
+    var choices4 = document.getElementById("AnswerD");
     var Next = document.getElementById("Next");
     var resultCont = document.getElementById("result");
 
-    
+
 
