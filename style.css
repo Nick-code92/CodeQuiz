@@ -6,9 +6,58 @@ body {
 }
 .container {
     height: 330px;
-    width: 100px;
+    width: 1000px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-50%)
+    transform: translateX(-50%) translateY(-50%);
+    background: rgba(red, green, blue, alpha);
+    padding: 20px;
+    border: 1px solid royalblue;
+    box-shadow:  0 0 8px 3px whitesmoke;
+}
+.hide {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 36px;
+    text-transform: capitalize;
+    color: thistle;
+}
+.btn-grid {
+    padding: 20px;
+    font-size: 21px;
+    background: turquoise;
+    border-radius: 20px;
+    margin: 10px 0 10px 0;
+    color: violet;
+}
+.Start-btn {
+    border: none;
+    outline: none;
+    background: rgba(red, green, blue, alpha);
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    float: left;
+    margin: 10px;
+}
+.Start-btn:hover {
+    background: rgb(9, 5, 117);
+    color: whitesmoke;
+}
+.Next {
+    border: none;
+    outline: none;
+    background: rgba(red, green, blue, alpha);
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    float: right;
+    margin: 10px;
+}
+.Next:hover {
+    background: rgb(9, 5, 117);
+    color: whitesmoke;
 }
