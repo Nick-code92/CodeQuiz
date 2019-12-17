@@ -1,5 +1,3 @@
-function () {
-
 var questions = [
     {
       title: "Commonly used data types DO NOT include?",
@@ -35,5 +33,20 @@ var questions = [
       title: "Which is a single integrated circuit?",
       choices: ["Mother Board", "Gate", "CPU", "Chip"],
       answer: "Gate",
-    }
-  });
+    };
+
+    var currentQuestion = 0;
+    var score = 0;
+    var totQuestion = question.length;
+
+    var container = document.getElementById("questionContainer");
+    var questionEl = document.getElementById("question");
+    var AnswerA = document.getElementById("AnswerA");
+    var AnswerB = document.getElementById("AnswerB");
+    var AnswerC = document.getElementById("AnswerC");
+    var AnswerD = document.getElementById("AnswerD");
+    var Next = document.getElementById("Next");
+    var resultCont = document.getElementById("result");
+
+    
+
