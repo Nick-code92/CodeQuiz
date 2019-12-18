@@ -1,4 +1,21 @@
-var questions = [
+ var currentQuestion = 0;
+ var score = 0;
+ var totQuestion = question.length;
+
+ 
+ var container = document.getElementById("questionContainer");
+ var questionEl = document.getElementById("question");
+ var choices = document.getElementById("AnswerA");
+ var choices = document.getElementById("AnswerB");
+ var choices = document.getElementById("AnswerC");
+ var choices = document.getElementById("AnswerD");
+ var start = document.getElementById("start-btn")
+ var Next = document.getElementById("next-btn");
+ var resultCont = document.getElementById("result");
+
+
+
+ var questions = [
     {
       title: "Commonly used data types DO NOT include?",
       choices: ["strings", "booleans", "alerts", "numbers"],
@@ -33,20 +50,5 @@ var questions = [
       title: "Which is a single integrated circuit?",
       choices: ["Mother Board", "Gate", "CPU", "Chip"],
       answer: "Gate",
-    };
-
-    var currentQuestion = 0;
-    var score = 0;
-    var totQuestion = question.length;
-
-    var container = document.getElementById("questionContainer");
-    var questionEl = document.getElementById("question");
-    var choices1 = document.getElementById("AnswerA");
-    var choices2 = document.getElementById("AnswerB");
-    var choices3 = document.getElementById("AnswerC");
-    var choices4 = document.getElementById("AnswerD");
-    var Next = document.getElementById("Next");
-    var resultCont = document.getElementById("result");
-
-
-
+    },
+  ];

@@ -16,20 +16,24 @@ body {
     border: 1px solid royalblue;
     box-shadow:  0 0 8px 3px whitesmoke;
 }
-.hide {
+
+.btn {
     padding-top: 20px;
     text-align: center;
-    font-size: 36px;
+    font-size: 28px;
     text-transform: capitalize;
-    color: thistle;
+    color: black;
 }
 .btn-grid {
+    display: grid;
     padding: 20px;
     font-size: 21px;
     background: turquoise;
     border-radius: 20px;
-    margin: 10px 0 10px 0;
-    color: violet;
+    margin: 20px 0;
+    gap: 10px;
+    grid-template-columns: repeat(2, auto);
+    
 }
 .Start-btn {
     border: none;
@@ -46,7 +50,7 @@ body {
     background: rgb(9, 5, 117);
     color: whitesmoke;
 }
-.Next {
+.next-btn {
     border: none;
     outline: none;
     background: rgba(red, green, blue, alpha);
@@ -57,7 +61,7 @@ body {
     float: right;
     margin: 10px;
 }
-.Next:hover {
+.next-btn:hover {
     background: rgb(9, 5, 117);
     color: whitesmoke;
 }
