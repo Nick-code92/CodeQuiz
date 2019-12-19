@@ -9,24 +9,28 @@
 </head>
 <body>
     <div class="container">
-        <div id="question container" class="hide">
+        <div id="question-container">
             <div id="question">Question</div>
             <div id="answer-button" class="btn-grid">
-                <button class="btn">Answer A</button>
-                <button class="btn">Answer B</button>
-                <button class="btn">Answer C</button>
-                <button class="btn">Answer D</button>
+                <button value="0" id="AnswerA" class="btn">Answer A</button>
+                <button value="1" id="AnswerB" class="btn">Answer B</button>
+                <button value="2" id="AnswerC" class="btn">Answer C</button>
+                <button value="3" id="AnswerD" class="btn">Answer D</button>
             </div>
+        </div> 
+        <div class="controls" id="controls">
+            <button id="start-btn" class="Start-btn">Start</button>
+            <!-- <button id="next-btn" class="next-btn" >Next</button> -->
         </div>
-        <div class="controls">
-            <button id="Start-btn" class="Start-btn">Start</button>
-            <button id="next-btn" class="next-btn">Next</button>
+        <!-- <div id="-timer">
+            <div id="btimeGauge"></div>
+            <div id="timeGauge"></div>
+        </div> -->
+        <div id="result" class="result" >Result
         </div>
-    </div>
-    <div id="result" class="container result" style="display: none;">
     </div>
 
-    <script src="./script.js"></script>
     <script src="./question.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
